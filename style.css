@@ -25,9 +25,13 @@ header p {
   margin-top: 10px;
 } 
 
-img {
+-logo {
   max-width: 20%;
   height: auto;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 140px;
 }
 
 /*.logo {
