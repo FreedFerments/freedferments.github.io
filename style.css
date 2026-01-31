@@ -23,7 +23,17 @@ header h1 {
 header p {
   font-size: 1.2em;
   margin-top: 10px;
+} 
+
+img {
+  max-width: 100%;
+  height: auto;
 }
+
+/*.logo {
+  width: 160px;
+  margin-bottom: 20px;
+}*/
 
 section {
   max-width: 800px;
