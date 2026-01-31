@@ -26,9 +26,12 @@ header p {
   margin-top: 10px;
 } 
 
-.logo {
+img {
   max-width: 20%;
   height: auto;
+  }
+
+.logo {
   position: absolute;
   top: 20px;
   right: 20px;
