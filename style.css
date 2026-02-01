@@ -31,7 +31,7 @@ header p {
 .site-header {
   position: relative;
   height: 320px; /* výška headeru */
-  background-image: url("images/pexels-airamdphoto-15888984.jpg");
+  background-image: url("images/wood.jpg");
   background-size: cover;      /* natáhne fotku */
   background-position: center; /* vycentruje */
   background-repeat: no-repeat;
