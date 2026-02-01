@@ -28,6 +28,11 @@ header p {
 
 /*les přes header */
 
+.site-header > * {
+  position: relative;
+  z-index: 1;
+}
+
 .site-header {
   position: relative;
   height: 320px; /* výška headeru */
