@@ -26,6 +26,27 @@ header p {
   margin-top: 10px;
 } 
 
+/*les přes header */
+
+.site-header {
+  position: relative;
+  height: 320px; /* výška headeru */
+  background-image: url("images/pexels-airamdphoto-15888984.jpg");
+  background-size: cover;      /* natáhne fotku */
+  background-position: center; /* vycentruje */
+  background-repeat: no-repeat;
+}
+
+/*lehce zprůhlednit obrázek lesa v headeru */
+
+.site-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.35); /* 35 % tmavost */
+}
+
+/* obrázky a loga
 img {
   max-width: 20%;
   height: auto;
@@ -38,7 +59,7 @@ img {
   width: 140px;
 }
 
-/*.logo {
+.logo {
   width: 160px;
   margin-bottom: 20px;
 }*/
