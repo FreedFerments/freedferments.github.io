@@ -15,7 +15,7 @@ header h1 {
 
 .site-header h1,
 .site-header p {
-  color: black;
+  color: white;
 }
 
 header p {
@@ -49,7 +49,7 @@ header p {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.45); /* 35 % tmavost */
+  background-color: rgba(0, 0, 0, 0.65); /* 35 % tmavost */
 }
 
 /* obrázky a loga
