@@ -8,17 +8,14 @@ body {
   color: #333;
 }
 
-header {
-  background-color: #fdfdfd /*#5F9EA0*/;
- /* color: #333; */
-  text-align: center;
-  padding: 50px 20px;
-}
-
 header h1 {
   margin: 0;
   font-size: 2.5em;
-  color: black;
+}
+
+.site-header h1,
+.site-header p {
+  color: white;
 }
 
 header p {
@@ -28,18 +25,22 @@ header p {
 
 /*les přes header */
 
-.site-header > * {
+.site-header {
   position: relative;
-  z-index: 1;
+  height: 320px;
+  padding: 50px 20px;
+  text-align: center;
+
+  background-image: url("images/wood.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .site-header {
-  position: relative;
-  height: 320px; /* výška headeru */
-  background-image: url("images/wood.jpg");
-  background-size: cover;      /* natáhne fotku */
-  background-position: center; /* vycentruje */
-  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /*lehce zprůhlednit obrázek lesa v headeru */
